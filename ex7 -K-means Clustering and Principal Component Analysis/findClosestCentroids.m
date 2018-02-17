@@ -11,7 +11,7 @@ K = size(centroids, 1);
 % You need to return the following variables correctly.
 idx = zeros(size(X,1), 1);
 
-% ====================== YOUR CODE HERE ======================
+% ====================== YOUR CODE HERE =====================
 % Instructions: Go over every example, find its closest centroid, and store
 %               the index inside idx at the appropriate location.
 %               Concretely, idx(i) should contain the index of the centroid
@@ -32,7 +32,7 @@ for example = 1:size(X,1)
     end
 end
 
-% =============================================================
+% ============================================================
 
 end
 
